@@ -9,4 +9,3 @@ def get_days_from_today(date: str) -> int:
     except ValueError:
         print("Incorrect date format. Please use the 'YYYY-MM-DD' format.")
         return 0
-print(get_days_from_today("13.14.2020"))
